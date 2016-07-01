@@ -16,29 +16,27 @@ Meteor es una plataforma full-stack de JavaScript para desarrollar aplicaciones 
 
 - Meteor provee **reactividad full stack**, permitiendo a la interfáz gráfica reflejar sin problemas el verdadero estado del mundo con mínimo esfuerzo de desarrollo.
 
-<h2 id="quickstart">Quick start</h2>
+<h2 id="quickstart">Inicio rápido</h2>
 
-Meteor supports [OS X, Windows, and Linux](https://www.meteor.com/install).
+Meteor tiene soporte en [OS X, Windows, y Linux](https://www.meteor.com/install).
 
-On Windows?  [Download the official Meteor installer here](https://install.meteor.com/windows).
+¿En Windows?  [Descargue el instalador oficial de Meteor aquí](https://install.meteor.com/windows).
 
-On OS X or Linux?  Install the latest official Meteor release from your terminal:
+¿En OS X o Linux?  Instale la versión oficial más reciente de Neteir desde su terminal:
 
 ```bash
 curl https://install.meteor.com/ | sh
 ```
 
-The Windows installer supports Windows 7, Windows 8.1, Windows Server
-2008, and Windows Server 2012.  The command line installer supports Mac OS X
-10.7 (Lion) and above, and Linux on x86 and x86_64 architectures.
+El instalador de Windows tiene soporte para Windows 7, Windows 8.1, Windows Server 2008, y Windows Server 2012. El instalador en línea de comandos tiene soporte para Mac OS X 10.7 (Lion) y superior, y Linux con arquitectura x86 y x86_64.
 
-Once you've installed Meteor, create a project:
+Una vez que haya instalado Meteor, cree un proyecto:
 
 ```bash
 meteor create myapp
 ```
 
-Run it locally:
+Corra localmente::
 
 ```bash
 cd myapp
@@ -47,7 +45,7 @@ meteor
 # Meteor server running on: http://localhost:3000/
 ```
 
-> Meteor comes with npm bundled so that you can type `meteor npm` without worrying about installing it yourself. If you like, you can also use a globally installed npm to manage your packages.
+> Meteor viene con npm integrado así que puede escribir `meteor npm` sin preocuparse por instalarlo usted mismo. Si usted quiere, también puede usar npm instalado globalmente para administrar sus paquetes.
 
 <h2 id="learning-more">Recursos de Meteor</h2>
 
