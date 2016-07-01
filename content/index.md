@@ -16,6 +16,53 @@ Meteor es una plataforma full-stack de JavaScript para desarrollar aplicaciones 
 
 - Meteor provee **reactividad full stack**, permitiendo a la interfáz gráfica reflejar sin problemas el verdadero estado del mundo con mínimo esfuerzo de desarrollo.
 
+<h2 id="quickstart">Quick start</h2>
+
+Meteor supports [OS X, Windows, and Linux](https://www.meteor.com/install).
+
+On Windows?  [Download the official Meteor installer here](https://install.meteor.com/windows).
+
+On OS X or Linux?  Install the latest official Meteor release from your terminal:
+
+```bash
+curl https://install.meteor.com/ | sh
+```
+
+The Windows installer supports Windows 7, Windows 8.1, Windows Server
+2008, and Windows Server 2012.  The command line installer supports Mac OS X
+10.7 (Lion) and above, and Linux on x86 and x86_64 architectures.
+
+Once you've installed Meteor, create a project:
+
+```bash
+meteor create myapp
+```
+
+Run it locally:
+
+```bash
+cd myapp
+meteor npm install
+meteor
+# Meteor server running on: http://localhost:3000/
+```
+
+> Meteor comes with npm bundled so that you can type `meteor npm` without worrying about installing it yourself. If you like, you can also use a globally installed npm to manage your packages.
+
+<h2 id="learning-more">Recursos de Meteor</h2>
+
+1. El lugar para empezar con Meteor es el [tutorial official](https://www.meteor.com/tutorials/blaze/creating-an-app).
+
+2. [Stack Overflow](http://stackoverflow.com/questions/tagged/meteor) es el mejor lugar para hacer (¡y responder!) preguntas técnicas. Asegúrese de agregar la etiqueta de meteor a su pregunta.
+
+3. Visite los [foros de discusión de Meteor](https://forums.meteor.com) para anunciar proyectos, obtener ayuda, hablar sobre la comunidad, o discutir cambios al núcleo del proyecto.
+
+4. Los [docs de Meteor](https://docs.meteor.com) es el mejor lugar para encontrar la documentación de la API del núcleo de la plataforma.
+
+5. La [Atmosfera](https://atmospherejs.com) es el repositorio de los paquetes de la comunidad diseñado especialmente para Meteor.
+
+6. [Awesome Meteor](https://github.com/Urigo/awesome-meteor) es una lista seleccionada por la comunidad de [paquetes](https://github.com/Urigo/awesome-meteor#getting-started) y [recursos](https://github.com/Urigo/awesome-meteor#resources).
+
 <h2 id="what-is-it">¿Qué es la Guía de Meteor?</h2>
 
 Éste es un conjunto de artículos explicando de forma general opiniones de mejores prácticas para desarrollo de aplicaciones utilizando la plataforma [Meteor](https://meteor.com). Nuestro objetivo es cubrir patrones que son comunes para el desarrollo de todas las aplicaciones web y móviles modernas, así que muchos conceptos documentados aquí no son necesariamente específicos de Meteor y podrían aplicarse a cualquier aplicación construida con enfoque en interfaces de usuario modernas e interactivas.
@@ -45,27 +92,3 @@ Las decisiones tomadas y prácticas explicadas en la guía deben ser necesariame
 Una función importante de la guía es **dar forma al desarrollo futuro** de la plataforma Meteor. Al documentar las mejores prácticas, la guía arroja a la luz áreas de la plataforma que podrían ser mejores, más fáciles o con mejor desempeño, y por lo tanto serán usadas para guiar gran parte de las decisiones futuras de la plataforma.
 
 De forma similar, omisiones en la plataforma destacadas por la guía con frecuencia pueden ser complementadas por **paquetes de la comunidad**; esperamos que si usted ve una oportunidad para mejorar el flujo de trabajo de Meteor al escribir un paquete, ¡que usted la tome! Si no está seguro de cuál es la mejor forma de diseñar su paquete, busque ayuda en los foros y comience una discusión.
-
-<h3 id="future">Adiciones futuras</h3>
-
-La guía de Meteor nunca estará terminada. Particularmente, será actualizada con nuevas características publicadas en cada versión de Meteor. La versión más reciente se enfoca en Meteor 1.2.x. Hay algunos artículos más que añadiremos en las semanas siguientes para coincidir con el lanzamiento de Meteor 1.3, que incluirá soporte para módulos de ECMAScript, integración directa con NPM, integración y pruebas unitarias mejoradas, y mejores características para móvil:
-
-1. Estructura de la aplicación
-2. Pruebas
-3. Estilo de código y linting
-4. Formularios y entradas de usuario
-5. Aplicaciones móviles
-
-<h2 id="learning-more">Otros recursos de Meteor</h2>
-
-1. El lugar para empezar con Meteor es el [tutorial official](https://www.meteor.com/tutorials/blaze/creating-an-app).
-
-2. [Stack Overflow](http://stackoverflow.com/questions/tagged/meteor) es el mejor lugar para hacer (¡y responder!) preguntas técnicas. Asegúrese de agregar la etiqueta de meteor a su pregunta.
-
-3. Visite los [foros de discusión de Meteor](https://forums.meteor.com) para anunciar proyectos, obtener ayuda, hablar sobre la comunidad, o discutir cambios al núcleo del proyecto.
-
-4. Los [docs de Meteor](https://docs.meteor.com) es el mejor lugar para encontrar la documentación de la API del núcleo de la plataforma.
-
-5. La [Atmosfera](https://atmospherejs.com) es el repositorio de los paquetes de la comunidad diseñado especialmente para Meteor.
-
-6. La sección de [proyectos](https://www.meteor.com/projects) del sitio de Meteor describe los proyectos que conforman la plataforma Meteor.
